@@ -1,0 +1,73 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@layer base {
+  :root {
+    --background: #ffff00;
+    --foreground: theme('colors.black');
+  }
+
+  @font-face {
+    font-family: 'circular';
+    src: url('/assets/fonts/CircularProBook.otf') format('opentype');
+  }
+
+  body , html {
+    height: 100%;
+    width: 100%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: 'circular', sans-serif;
+  }
+}
+
+@layer utilities {
+
+    .animate-slide-fade-in-out-half {
+        animation: slide-fade-in-out-half 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes slide-fade-in-out-half {
+        0% {
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        50%{
+            transform: translateY(0);
+            opacity: 1;
+        }
+        100% {
+            opacity: .1;
+        }
+    }
+    
+    .animate-slide-fade-in {
+        --duration: 1s;
+        --delay: 0s;
+        opacity: 0;
+        animation: slide-fade-in var(--duration) cubic-bezier(0.075, 0.82, 0.165, 1);
+        animation-fill-mode: forwards;
+        animation-delay: var(--delay);
+    }
+
+    @keyframes slide-fade-in {
+        0% {
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+}
