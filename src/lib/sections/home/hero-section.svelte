@@ -24,7 +24,7 @@
 
 			<a
 				style:--delay="1.7s"
-				href="/softwares"
+				href="/"
 				class="bg-black text-[yellow] px-4 py-2 flex items-center text-2xl gap-2 w-max animate-slide-fade-in"
 			>
 				<h1>Leave A Message</h1>
@@ -50,7 +50,7 @@
 
 			<!-- <div class="w-full flex items-center justify-center">
 				<a
-					href="/softwares"
+					href="/"
 					class="bg-black text-[yellow] px-4 py-2 flex items-center text-2xl gap-2"
 				>
 					<h1>See All</h1>

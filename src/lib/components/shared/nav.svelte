@@ -28,10 +28,10 @@
 			class:visible={navOpen}
 			class="menu flex flex-col lg:flex-row justify-center bg-[yellow] fixed lg:static top-0 left-0 z-10 w-full lg:w-max h-dvh lg:h-max px-4 gap-4 border-x border-black"
 		>
-			<a href="/softwares" style:--delay="1.7s" class="underline animate-slide-fade-in">Blog</a>
-			<a href="/softwares" style:--delay="1.9s" class="underline animate-slide-fade-in">Softwares</a
+			<a href="/" style:--delay="1.7s" class="underline animate-slide-fade-in">Blog</a>
+			<a href="/" style:--delay="1.9s" class="underline animate-slide-fade-in">Softwares</a
 			>
-			<a href="/softwares" style:--delay="1.9s" class="underline animate-slide-fade-in">About</a>
+			<a href="/" style:--delay="1.9s" class="underline animate-slide-fade-in">About</a>
 			<a href="mailto:koresturm@gmail.com" style:--delay="2.1s" class="underline animate-slide-fade-in"
 				>Send a Message</a
 			>
@@ -47,10 +47,10 @@
 		</div>
 
 		<div class="hidden lg:flex w-max gap-4">
-			<a href="/softwares" style:--delay="2.3s" class="underline animate-slide-fade-in">
+			<a href="/" style:--delay="2.3s" class="underline animate-slide-fade-in">
 				<TwitterIcon />
 			</a>
-			<a href="/softwares" style:--delay="2.3s" class="underline animate-slide-fade-in">
+			<a href="/" style:--delay="2.3s" class="underline animate-slide-fade-in">
 				<InstagramIcon />
 			</a>
 		</div>

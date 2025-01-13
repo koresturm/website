@@ -15,11 +15,11 @@
 			</h1>
 
 			<div class="flex flex-col lg:flex-row lg:items-center gap-4">
-				<a href="/softwares" class="underline animate-slide-fade-in">Blog</a>
-				<a href="/softwares" style:--delay="1.9s" class="underline animate-slide-fade-in">Softwares</a
+				<a href="/" class="underline animate-slide-fade-in">Blog</a>
+				<a href="/" style:--delay="1.9s" class="underline animate-slide-fade-in">Softwares</a
 				>
-				<a href="/softwares" style:--delay="1.9s" class="underline animate-slide-fade-in">About</a>
-				<a href="/softwares" style:--delay="2.1s" class="underline animate-slide-fade-in"
+				<a href="/" style:--delay="1.9s" class="underline animate-slide-fade-in">About</a>
+				<a href="/" style:--delay="2.1s" class="underline animate-slide-fade-in"
 					>Book a call</a
 				>
 			</div>

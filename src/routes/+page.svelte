@@ -10,6 +10,22 @@
 
 <svelte:head>
 	<title>Koresturm</title>
+	<meta name="description" content="Custom software solutions to ease the pain points of your business and personal life." />
+	<meta name="keywords" content="software, ai, automation, productivity, fitness, finance, inventory, personal, business, custom" />
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:title" content="Koresturm" />
+	<meta property="og:description" content="Custom software solutions to ease the pain points of your business and personal life." />
+	<meta property="og:image" content="https://koresturm.vercel.app/assets/images/opengraph.png" />
+	<meta property="og:url" content="https://koresturm.vercel.app" />
+	<meta property="og:type" content="website" />
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content="https://koresturm.vercel.app" />
+	<meta property="twitter:title" content="Koresturm" />
+	<meta property="twitter:description" content="Custom software solutions to ease the pain points of your business and personal life." />
+	<meta property="twitter:image" content="https://koresturm.vercel.app/assets/images/opengraph.png" />
 </svelte:head>
 
 <HeroSection />
