@@ -47,10 +47,10 @@
 		</div>
 
 		<div class="hidden lg:flex w-max gap-4">
-			<a href="/" style:--delay="2.3s" class="underline animate-slide-fade-in">
+			<a href="https://x.com/koresturm" style:--delay="2.3s" class="underline animate-slide-fade-in">
 				<TwitterIcon />
 			</a>
-			<a href="/" style:--delay="2.3s" class="underline animate-slide-fade-in">
+			<a href="https://instagram.com/koresturm" style:--delay="2.3s" class="underline animate-slide-fade-in">
 				<InstagramIcon />
 			</a>
 		</div>
