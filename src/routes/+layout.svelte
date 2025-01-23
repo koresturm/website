@@ -1,4 +1,7 @@
 <script lang="ts">
+
+	import { injectAnalytics } from '@vercel/analytics/sveltekit'
+
 	import Footer from '$lib/components/shared/footer.svelte';
 	import Nav from '$lib/components/shared/nav.svelte';
 	import '../app.css';
@@ -11,6 +14,8 @@
 	setupConvex(PUBLIC_CONVEX_URL);
 
 	convexClient.value = useConvexClient();
+
+	injectAnalytics();
 </script>
 
 <Nav />
