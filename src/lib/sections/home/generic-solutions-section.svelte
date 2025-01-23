@@ -30,7 +30,7 @@
 			href="mailto:koresturm@gmail.com"
 			class="bg-black text-white px-4 py-2 flex items-center text-2xl gap-2 w-max"
 		>
-			<h1>Reach out</h1>
+			<h1>Leave A Message</h1>
 			<ArrowRightIcon />
 		</a>
 	</section>
